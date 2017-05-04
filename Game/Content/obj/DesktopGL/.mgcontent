@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/mainMenu.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/mine.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/player.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/bgLayer1.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/bgLayer2.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/endMenu.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/laser.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/mainbackground.png</File>
+  </SourceFiles>
+</SourceFileCollection>
