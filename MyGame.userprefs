@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{7DC05082-A406-45A8-A7FF-7374A5C221A9}|Default">
   <MonoDevelop.Ide.ItemProperties.MyGame PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Model/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Controller/MyGame.cs">
     <Files>
-      <File FileName="Game/Controller/MyGame.cs" Line="163" Column="12" />
-      <File FileName="Game/Model/Player.cs" Line="79" Column="3" />
-      <File FileName="Game/View/Animation.cs" Line="123" Column="64" />
+      <File FileName="Game/Controller/MyGame.cs" Line="418" Column="5" />
+      <File FileName="Game/Model/BabyLuigiGun.cs" Line="72" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

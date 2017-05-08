@@ -67,20 +67,19 @@ namespace MyGame.Model
 			// Set the player health
 			Health = 100;
 			}
-		public void Update()
+
+		// Update the player animation
+		public void Update(GameTime gameTime)
 			{
-// Update the player animation
-public void Update(GameTime gameTime)
-	{
-	PlayerAnimation.Position = Position;
-	PlayerAnimation.Update(gameTime);
-}
+			PlayerAnimation.Position = Position;
+			PlayerAnimation.Update(gameTime);
 			}
 
-// Draw the player
-public void Draw(SpriteBatch spriteBatch)
-	{
-	PlayerAnimation.Draw(spriteBatch);
-}
 
+		// Draw the player
+		public void Draw(SpriteBatch spriteBatch)
+			{
+			PlayerAnimation.Draw(spriteBatch);
+			}
+		}
 	}

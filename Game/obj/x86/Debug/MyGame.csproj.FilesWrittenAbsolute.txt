@@ -42,3 +42,16 @@
 /Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Texture/mainbackground.xnb
 /Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Texture/mine.xnb
 /Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Texture/player.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/explosion.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/mineAnimation.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/shipAnimation.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/explosion.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/gameMusic.ogg
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/gameMusic.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/laserFire.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/menuMusic.ogg
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/menuMusic.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Font/gameFont.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/luigiAnimation.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Texture/babyLuigiGun.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/babyLuigiAnimation.xnb

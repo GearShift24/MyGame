@@ -6,11 +6,21 @@
   <SourceFiles>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/mainMenu.png</File>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/mine.png</File>
-    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/player.png</File>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/bgLayer1.png</File>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/bgLayer2.png</File>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/endMenu.png</File>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/laser.png</File>
     <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/mainbackground.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Animation/mineAnimation.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Animation/shipAnimation.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Animation/explosion.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/sound/explosion.wav</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/sound/gameMusic.mp3</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/sound/laserFire.wav</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/sound/menuMusic.mp3</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Font/gameFont.spritefont</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/player.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Texture/babyLuigiGun.png</File>
+    <File>/Users/jwri6847/Documents/GameDev/Game/Game/Content/Animation/BabyLuigiAnimation.png</File>
   </SourceFiles>
 </SourceFileCollection>

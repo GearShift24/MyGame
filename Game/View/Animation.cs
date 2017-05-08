@@ -124,7 +124,7 @@ public void Draw(SpriteBatch spriteBatch)
 		}
 	}
 
-	public animation()
+	public Animation()
 		{
 			
 		}
