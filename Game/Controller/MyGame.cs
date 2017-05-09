@@ -66,14 +66,20 @@ namespace MyGame.Controller
 		Texture2D explosionTexture;
 		List<Animation> explosions;
 
-		//// The sound that is played when a laser is fired
-		//SoundEffect laserSound;
 
-		//// The sound used when the player or an enemy dies
-		//SoundEffect explosionSound;
 
-		//// The music played during gameplay
-		//Song gameplayMusic;
+
+		// The sound that is played when a laser is fired
+		SoundEffect laserSound;
+
+		// The sound used when the player or an enemy dies
+		SoundEffect explosionSound;
+
+		// The music played during gameplay
+		Song gameplayMusic;
+
+
+
 
 		//Number that holds the player score
 		int score;
@@ -159,17 +165,21 @@ namespace MyGame.Controller
 			projectileTexture = Content.Load<Texture2D>("Texture/laser");
 			BabyLuigiGunTexture = Content.Load<Texture2D>("Texture/babyLuigiGun");
 			explosionTexture = Content.Load<Texture2D>("Animation/explosion");
-			// Load the music
-			//gameplayMusic = Content.Load<Song>("sound/gameMusic");
 
-			// Load the laser and explosion sound effect
-			//laserSound = Content.Load<SoundEffect>("sound/laserFire");
-			//explosionSound = Content.Load<SoundEffect>("sound/explosion");
+
+
+
+			 //Load the music
+			gameplayMusic = Content.Load<Song>("sound/gameMusic");
+
+			 //Load the laser and explosion sound effect
+			laserSound = Content.Load<SoundEffect>("sound/laserFire");
+			explosionSound = Content.Load<SoundEffect>("sound/explosion");
 
 			// Load the score font
 			font = Content.Load<SpriteFont>("Font/gameFont");
 			// Start the music right away
-			//PlayMusic(gameplayMusic);
+			PlayMusic(gameplayMusic);
 
 			mainBackground = Content.Load<Texture2D>("Texture/mainbackground");
 			}
@@ -304,7 +314,7 @@ namespace MyGame.Controller
 						AddExplosion(enemies[i].Position);
 						}
 					// Play the explosion sound
-					//explosionSound.Play();
+					explosionSound.Play();
 					//Add to the player's score
 					score += enemies[i].Value;
 					enemies.RemoveAt(i);
@@ -497,7 +507,7 @@ babyLuigiGuns[i].Active = false;
                
 				
 				// Play the laser sound
-				//laserSound.Play();
+				laserSound.Play();
 				}
 
 			//reset score if player health goes to zero

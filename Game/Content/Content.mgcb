@@ -85,29 +85,11 @@
 /processorParam:TextureFormat=Color
 /build:Animation/explosion.png
 
-#begin sound/explosion.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:sound/explosion.wav
-
-#begin sound/gameMusic.mp3
-/importer:Mp3Importer
-/processor:SongProcessor
-/processorParam:Quality=Best
-/build:sound/gameMusic.mp3
-
 #begin sound/laserFire.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:sound/laserFire.wav
-
-#begin sound/menuMusic.mp3
-/importer:Mp3Importer
-/processor:SongProcessor
-/processorParam:Quality=Best
-/build:sound/menuMusic.mp3
 
 #begin Font/gameFont.spritefont
 /importer:FontDescriptionImporter
@@ -199,4 +181,22 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Animation/mineAnimation.png
+
+#begin sound/menuMusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:sound/menuMusic.mp3
+
+#begin sound/explosion.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sound/explosion.wav
+
+#begin sound/gameMusic.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:sound/gameMusic.mp3
 
