@@ -144,8 +144,8 @@ namespace MyGame.Controller
 
 			// Load the player resources
 			Animation playerAnimation = new Animation();
-			Texture2D playerTexture = Content.Load<Texture2D>("Animation/luigiAnimation");
-			playerAnimation.Initialize(playerTexture, Vector2.Zero, 120, 117, 8, 60, Color.White, 1f, true);
+			Texture2D playerTexture = Content.Load<Texture2D>("Animation/BabyLuigiAnimation");
+			playerAnimation.Initialize(playerTexture, Vector2.Zero, 120, 69, 8, 60, Color.White, 1f, true);
 
 			Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y
 			+ GraphicsDevice.Viewport.TitleSafeArea.Height / 2);

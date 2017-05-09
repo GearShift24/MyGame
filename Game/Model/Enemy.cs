@@ -56,10 +56,10 @@ namespace MyGame.Model
 			Health = 10;
 
 			// Set the amount of damage the enemy can do
-			Damage = 10;
+			Damage = 50;
 
 			// Set how fast the enemy moves
-			enemyMoveSpeed = 6f;
+			enemyMoveSpeed = 7f;
 
 
 			// Set the score value of the enemy
