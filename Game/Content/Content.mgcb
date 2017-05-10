@@ -188,15 +188,15 @@
 /processorParam:Quality=Best
 /build:sound/menuMusic.mp3
 
-#begin sound/explosion.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:sound/explosion.wav
-
 #begin sound/gameMusic.mp3
 /importer:Mp3Importer
 /processor:SongProcessor
 /processorParam:Quality=Best
 /build:sound/gameMusic.mp3
+
+#begin sound/explosion.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sound/explosion.wav
 

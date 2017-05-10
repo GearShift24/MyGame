@@ -55,3 +55,6 @@
 /Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/luigiAnimation.xnb
 /Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Texture/babyLuigiGun.xnb
 /Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/Animation/babyLuigiAnimation.xnb
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/explosion.ogg
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/explosions.ogg
+/Users/jwri6847/Documents/GameDev/Game/Game/bin/Debug/Content/sound/explosions.xnb

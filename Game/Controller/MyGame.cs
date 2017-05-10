@@ -109,7 +109,7 @@ namespace MyGame.Controller
 			babyLuigiGuns = new List<BabyLuigiGun>();
 
 			// Set the laser to fire every quarter second
-			fireTime = TimeSpan.FromSeconds(.15f);
+			fireTime = TimeSpan.FromSeconds(.1f);
 
 			// Initialize the player class
 			player = new Player();

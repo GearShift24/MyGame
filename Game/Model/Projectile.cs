@@ -49,17 +49,22 @@ namespace MyGame.Model
 			Texture = texture;
 			Position = position;
 			this.viewport = viewport;
+		
 
 			Active = true;
 
-			Damage = 2;
+			Damage = 5;
 
-			projectileMoveSpeed = 20f;
+			projectileMoveSpeed = 1f;
 			}
 		public void Update()
 			{
 			// Projectiles always move to the right
 			Position.X += projectileMoveSpeed;
+
+	
+
+
 
 			// Deactivate the bullet if it goes out of screen
 			if (Position.X + Texture.Width / 2 > viewport.Width)

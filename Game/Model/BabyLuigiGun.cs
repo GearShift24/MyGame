@@ -58,7 +58,7 @@ public void Initialize(Viewport viewport, Texture2D texture, Vector2 position)
 public void Update()
 	{
 	// Projectiles always move to the right
-	Position.X += projectileMoveSpeed / 100000000000000000;
+	Position.X += projectileMoveSpeed * 14;
 
 	// Deactivate the bullet if it goes out of screen
 	if (Position.X + Texture.Width / 5 > viewport.Width)
