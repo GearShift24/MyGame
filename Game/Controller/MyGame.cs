@@ -109,7 +109,7 @@ namespace MyGame.Controller
 			babyLuigiGuns = new List<BabyLuigiGun>();
 
 			// Set the laser to fire every quarter second
-			fireTime = TimeSpan.FromSeconds(.1f);
+			fireTime = TimeSpan.FromSeconds(.5f);
 
 			// Initialize the player class
 			player = new Player();
@@ -131,7 +131,7 @@ namespace MyGame.Controller
 			previousSpawnTime = TimeSpan.Zero;
 
 			// Used to determine how fast enemy respawns
-			enemySpawnTime = TimeSpan.FromSeconds(1.0f);
+			enemySpawnTime = TimeSpan.FromSeconds(.125f);
 
 			// Initialize our random number generator
 			random = new Random();
